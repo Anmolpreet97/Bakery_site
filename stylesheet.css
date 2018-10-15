@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+    box-sizing: border-box;
+    }
+*,*:before,*:after{
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.row{
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+.section-1{
+background-image: url(img/bagles-bakery-baking-6194.jpg);
+background-repeat: no-repeat;
+width:100%;
+height:100vh;
+background-size: cover;
+background-position: center;
+}
+
+.column1,
+.column2{
+    float:left;
+   
+}
+.column1{
+    width:20%;
+}
+.column2{
+    width:60%;
+}
+.row1::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav li{
+    list-style: none;
+    display:inline-block;
+}
+
+.logo{
+    font-family: scriptina;
+    font-size:30px;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.nav{
+    text-align: left;
+    margin-top: 43px;
+    font-size:14px;
+}
+.menu,.one {
+    margin-left:70px;
+    color:#ffffff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.social {
+    margin-top: 43px;
+    text-align: center;
+    word-spacing: 20px;
+    cursor: pointer;
+    color:#ffffff;
+}
+.container{
+    background-color:  rgba(181, 102, 59, 0.3);
+    height: 80px
+}
+
+.hero-text{
+    text-align: center;
+    color:#ffffff;
+    margin-top: 140px;
+}
+
+.h1-text{
+    font-size: 92px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+p{
+    margin-top:80px;
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 100;
+}
+
+.btn1{
+    margin-top: 30px;
+    background-color: rgba(101, 75, 52, 0.6);
+    color:#ffffff;
+    padding: 10px 30px;
+    border:none;
+    box-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
